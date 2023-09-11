@@ -1,0 +1,52 @@
+body{
+
+background-color: rgb(58, 162, 197);  
+}
+
+h1{
+    color:rgb(4, 58, 4);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+}
+
+.card-title{
+    border-bottom: dashed 1px black;
+    margin:0;
+    padding:0;
+    font-size:20px;
+    color: rgb(0, 0, 0);
+    height: 100px;
+    text-align: center;
+}
+.card-text{
+
+    margin:0;
+    padding:10px;
+    font-size:20px;
+    text-align: center;
+    height: 500px;
+    
+}
+
+.card-img-top{
+    background-color: orange;
+}
+
+.container{
+    padding: 30px;
+}
+
+.card-img-top{
+    width: 250px;
+}
+
+.card{
+    background-image: linear-gradient(rgba(233, 93, 28, 0.897), rgb(240, 187, 126));
+    width: 300px;
+}
+
